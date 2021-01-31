@@ -46,7 +46,10 @@ endmodule
 
 /* START OF RIPPLE ADDERS */ 
 
-
+module three_bit_adder(
+  
+);
+endmodule
 
 
 module ripple_adder(
@@ -64,6 +67,8 @@ module AOI3(
 
   output logic out
 );
+
+
 endmodule
 
 /* END OF AOI3 */
@@ -119,8 +124,16 @@ module 10_bit_adder(
 endmodule
 
 module 3_bit_adder(
-  
+  input logic [1:0] X,
+  input logic [1:0] Y,
+
+  output logic [1:0] sum,
+  output logic carry_out
 );
+
+
+
+
 endmodule
 
 
